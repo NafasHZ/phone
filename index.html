@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5f744ea7f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>دفترچه تلفن</h1>
+    </header>
+    
+    <form action="">
+        <input type="text" class="todo-name-input" placeholder="نام ونام خانوادگی">
+        <input type="number" class="todo-mobile-input" placeholder="شماره">
+        <div class="type-number">
+            <select class="type-todo">
+                <option value="0">شماره ی ثابت</option>
+                <option value="1">شماره ی موبایل</option>
+            </select>
+        </div>
+         <button type ='submit' class="todo-button">
+            <i class="fa-solid fa-plus"></i>
+         </button>
+    </form>
+    <div class="todo-container">
+        <div class="select" >
+            <select name="todos" class="filter-todo">
+            <option value="2">همگی</option>
+            <option value="0">شماره ی ثابت</option>
+            <option value="1">شماره ی موبایل</option>
+        </select>
+        </div>
+        <ul class="todo-list"></ul>
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
